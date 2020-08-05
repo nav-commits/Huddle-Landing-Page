@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+body {
+  Font-size: 18px;
+  margin: 0px 0px 0px 0px;
+}
+
+.back-content {
+  background-image: url("/images/bg-hero-desktop.svg");
+  background-color: #d3eef7;
+  height: 520px;
+  font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 60px;
+}
+
+.back-content .content {
+  width: 420px;
+  font-size: 13px;
+  color: #3f3c3c;
+  font-weight: 600px;
+}
+
+.back-content .heading {
+  margin-top: 90px;
+  width: 450px;
+}
+
+.back-content .top-image {
+  height: 22px;
+}
+
+.back-content .image-side {
+  margin-top: 80px;
+}
+
+.back-content .all-content {
+  margin-right: 200px;
+}
+
+.try-free {
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  outline: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 10px;
+  color: black;
+  cursor: pointer;
+  border: 0;
+  position: absolute;
+  right: 25px;
+  top: 30px;
+}
+
+.get-started {
+  background-color: #ff52bf;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  outline: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  color: #dadada;
+  cursor: pointer;
+  border: 0;
+}
+/*# sourceMappingURL=App.css.map */
