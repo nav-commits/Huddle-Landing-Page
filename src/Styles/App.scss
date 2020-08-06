@@ -353,10 +353,61 @@ right:160px;
       padding-right: 20px;
     }
   }
+  }
   .footer-div{
     width: 100%;
+    .footer-div{
+      height: 900px;
+      position: absolute;
+      margin-top: 170px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    
+      .copy{
+        position:relative;
+        left:-52%;
+        bottom:-23%;
+      }
+    
+     .section-two{
+       margin-right:400px;
+       width: 170px;
+     }
+    
+     .section-one{
+       margin-right: 190px;
+    
+     }
+    
+     .para-lorem{
+      width: 220px;
+     }
+    
+    }
+    
+    .part-three{
+      position: relative;
+      top: 5px;
+      right:60px;
+      width: 170px;
+    
+    }
+    .icons{
+      position:relative;
+      left:-12%;
+      bottom:-15%;
+     
+    }
+    
+    body{
+      margin: 0;
+    }
+
   }
-  }
+
+
 }
 
 
@@ -485,7 +536,6 @@ right:160px;
     justify-content: center;
   
     .copy{
-      // text-align: center;
       position:relative;
       left:-45%;
       bottom:-23%;
