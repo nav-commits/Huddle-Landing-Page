@@ -206,7 +206,7 @@ body{
 
 
 
-/// footter ////////
+/// footer ////////
 
 .footer-div{
   height: 430px;
@@ -337,7 +337,7 @@ right:160px;
 /// media queries ////////
 
 // media query 1
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 320px){
   
   .back-content{
     width: 100%;
@@ -414,9 +414,87 @@ right:160px;
 }
 
 
+@media only screen and (max-width: 375px){
+  
+  .back-content{
+    width: 100%;
+  }
+  .cover{
+  .tab-content{
+    margin-top:30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 140px;
+    margin-left: 2px;
+    margin-right: 2px;
+  
+    .button-three{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  }
+  .footer-div{
+    width: 100%;
+    .footer-div{
+      height: 900px;
+      position: absolute;
+      margin-top: 170px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+    
+      .copy{
+        position:relative;
+        left:-52%;
+        bottom:-23%;
+      }
+    
+     .section-two{
+       margin-right:400px;
+       width: 170px;
+     }
+    
+     .section-one{
+       margin-right: 190px;
+    
+     }
+    
+     .para-lorem{
+      width: 220px;
+     }
+    
+    }
+    
+    .part-three{
+      position: relative;
+      top: 5px;
+      right:60px;
+      width: 170px;
+    
+    }
+    .icons{
+      position:relative;
+      left:-12%;
+      bottom:-15%;
+     
+    }
+    
+    body{
+      margin: 0;
+    }
+
+  }
+
+
+}
+
+
+
+
   
 
-// // media query 3
 @media only screen and (max-width: 411px) {
 .footer-div{
   width: 100%;
@@ -584,7 +662,7 @@ body{
 
 // media queries for tablet and mobile ///
 
-// media query 4
+
 @media (min-width: 700px) and (max-width: 1200px) {
 
 .content-cover{
